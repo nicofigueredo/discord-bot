@@ -1,0 +1,10 @@
+{
+	"name": "mogo-duketoh",
+	"version": "1.0.0",
+	"description": "This bot tira down",
+	"main": "bot.js",
+	"author": "mogoCreatorz",
+	"dependencies": {
+		"discord.js": "^11.5.1"
+	}
+}
