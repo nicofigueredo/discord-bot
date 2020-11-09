@@ -1,10 +1,26 @@
 {
-	"name": "mogo-duketoh",
-	"version": "1.0.0",
-	"description": "This bot tira down",
-	"main": "bot.js",
-	"author": "mogoCreatorz",
-	"dependencies": {
-		"discord.js": "^11.5.1"
-	}
+    "name": "mogo-duketoh",
+    "version": "1.0.0",
+    "description": "This bot tira down",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon src/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nicofigueredo/discord-bot.git"
+    },
+    "keywords": [],
+    "author": "mogoCreatorz",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/nicofigueredo/discord-bot/issues"
+    },
+    "homepage": "https://github.com/nicofigueredo/discord-bot#readme",
+    "dependencies": {
+        "discord.js": "^11.5.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.6"
+    }
 }
